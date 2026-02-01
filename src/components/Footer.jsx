@@ -14,7 +14,6 @@ export default function Footer() {
  <div className="lg:col-span-1">
  <div className="flex items-center gap-2 mb-6">
  <div className="w-10 h-10 rounded-xl gradient-gold flex items-center justify-center">
- <span className="text-navy font-bold text-lg">5R</span>
  </div>
  <span className="font-bold text-xl">
  <span className="gradient-text-gold">5RINGS</span>
@@ -29,7 +28,7 @@ export default function Footer() {
  </div>
 
  <div>
- <h4 className="font-semibold mb-6">Quick Links</h4>
+ <h4 clnpassName="font-semibold mb-6">Quick Links</h4>
  <div className="flex flex-col gap-3">
  {[
  { name: 'Home', path: '/' },
@@ -97,7 +96,7 @@ export default function Footer() {
 
  <div className="mt-12 pt-8 border-t border-border flex flex-col md:flex-row justify-between items-center gap-4">
  <p className="text-muted-foreground text-sm">
- © 2025 FIVERINGS SPORTS PVT LTD. All rights reserved.
+ © 2026 FIVERINGS SPORTS PVT LTD. All rights reserved.
  </p>
  <div className="flex gap-6">
  <a href="#" className="text-muted-foreground text-sm hover:text-accent transition-colors">

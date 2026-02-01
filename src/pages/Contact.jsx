@@ -108,12 +108,14 @@ export default function Contact() {
  </div>
 
  <div className="aspect-video rounded-xl overflow-hidden bg-muted flex items-center justify-center">
- <div className="text-center p-8">
- <MapPin size={48} className="text-accent mx-auto mb-4" />
- <p className="text-muted-foreground text-sm">
- Interactive map coming soon
- </p>
- </div>
+ <iframe
+ src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.299109723877!2d80.15781231461327!3d13.088195990779705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5263ca00d6cb25%3A0xc636070773d1326c!2sAmbattur%20Industrial%20Estate!5e0!3m2!1sen!2sin!4v1628167823456!5m2!1sen!2sin"
+ width="100%"
+ height="100%"
+ style={{ border: 0 }}
+ allowFullScreen=""
+ loading="lazy"
+ ></iframe>
  </div>
  </div>
  </div>
