@@ -57,6 +57,24 @@ export default function About() {
                         </div>
                     </div>
 
+                    <div className="mb-24">
+                        <h2 className="heading-md mb-8 text-center gradient-text-gold">TEAM</h2>
+                        <div className="grid md:grid-cols-3 gap-6">
+                            {[
+                                { name: 'Ashok Kumar H' },
+                                { name: 'Suriyaraaj K' },
+                                { name: 'Rishi Kumar' },
+                            ].map((person) => (
+                                <div key={person.name} className="glass-card text-center group hover:border-accent/30 transition-all">
+                                    <h3 className="text-xl font-bold mb-2">{person.name}</h3>
+                                    {person.email && (
+                                        <p className="text-accent mb-2 text-sm">{person.email}</p>
+                                    )}
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+
                     <div className="grid md:grid-cols-2 gap-8 mb-24">
                         <div className="glass-card group hover:border-accent/30 transition-all">
                             <div className="feature-icon mb-6">
@@ -101,7 +119,9 @@ export default function About() {
                                 <p className="text-muted-foreground text-sm">{value.description}</p>
                             </div>
                         ))}
-                    </div>
+                    </div><br />
+
+
                     <div className="mb-24">
                         <div className="text-center mb-12">
                             <h2 className="heading-lg mb-4">Our Team</h2>
@@ -130,7 +150,7 @@ export default function About() {
                         <div className="glass-card text-center">
                             <h3 className="heading-md mb-8">Sports Club Partners</h3>
                             <div className="flex flex-wrap justify-center gap-4">
-                                {['HAMMERPRO KICKBOXING', 'MAK TABLE TENNIS', 'KING STAR CRICKET', 'ROYAL KINGS ARCHERY', 'SILAMBAM'].map((partner) => (
+                                {['FC-TAMILIONS', 'HAMMERPRO KICKBOXING', 'MAK TABLE TENNIS', 'KING STAR CRICKET', 'ROYAL KINGS ARCHERY', 'SILAMBAM'].map((partner) => (
                                     <span key={partner} className="px-6 py-3 bg-accent/5 rounded-full text-accent font-semibold border border-accent/20 hover:bg-accent/10 transition-colors">
                                         {partner}
                                     </span>
