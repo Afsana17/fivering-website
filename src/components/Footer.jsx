@@ -21,6 +21,10 @@ export default function Footer() {
                                     className="w-24 h-24 md:w-28 md:h-28 object-contain -translate-y-1 md:-translate-y-2 transform"
                                 />
                             </Link>
+                            {/* If you want the gradient 5RINGS text */}
+                            {/* <span className="font-bold text-xl">
+                                <span className="gradient-text-gold">5RINGS</span>
+                            </span> */}
                         </div>
                         <p className="text-muted-foreground text-sm mb-6">
                             FIVERINGS SPORTS PVT LTD
@@ -38,7 +42,7 @@ export default function Footer() {
                                 { name: 'About Us', path: '/about' },
                                 { name: 'Sports', path: '/sports' },
                                 { name: 'Services', path: '/services' },
-                                { name: 'Clients', path: '/Gallery' },
+                                { name: 'Gallery', path: '/gallery' },
                                 { name: 'Contact', path: '/contact' },
                             ].map((link) => (
                                 <Link
