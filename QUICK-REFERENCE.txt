@@ -1,0 +1,78 @@
+╔══════════════════════════════════════════════════════════════╗
+║         5RINGS CONNECT - QUICK REFERENCE CARD                ║
+╚══════════════════════════════════════════════════════════════╝
+
+📦 INSTALLATION
+───────────────────────────────────────────────────────────────
+  unzip 5rings-connect-jsx.zip
+  cd 5rings-connect-jsx
+  npm install
+  npm run dev
+
+  ✅ The .npmrc file handles dependency resolution automatically!
+
+🚀 COMMANDS
+───────────────────────────────────────────────────────────────
+  npm run dev       → Start dev server (http://localhost:8080)
+  npm run build     → Build for production  
+  npm run preview   → Preview production build
+  npm run test      → Run tests
+  npm run lint      → Lint code
+
+📁 PROJECT STRUCTURE
+───────────────────────────────────────────────────────────────
+  src/
+  ├── components/   → React components
+  │   ├── ui/       → 49 shadcn/ui components
+  │   └── home/     → 9 Home page sections
+  ├── pages/        → 7 Page components
+  ├── hooks/        → Custom React hooks
+  ├── lib/          → Utility functions
+  └── assets/       → Images and static files
+
+🌐 PAGES
+───────────────────────────────────────────────────────────────
+  /              → Home
+  /about         → About
+  /sports        → Sports Programs
+  /services      → Services
+  /gallery       → Photo Gallery
+  /contact       → Contact Form
+
+🛠️ TROUBLESHOOTING
+───────────────────────────────────────────────────────────────
+  Problem: Installation errors
+  Solution: rm -rf node_modules && npm install
+
+  Problem: Port 8080 in use
+  Solution: Edit vite.config.js and change the port
+
+  Problem: Missing dependencies
+  Solution: npm install --force
+
+📚 DOCUMENTATION
+───────────────────────────────────────────────────────────────
+  README.md      → Project overview
+  INSTALL.md     → Detailed installation guide
+  
+💡 TIPS
+───────────────────────────────────────────────────────────────
+  • Node.js 18+ required
+  • The .npmrc file is pre-configured
+  • Just run "npm install" - no flags needed!
+  • All TypeScript has been removed
+  • 72 JSX files ready to use
+
+✨ FEATURES
+───────────────────────────────────────────────────────────────
+  ✅ Fully responsive design
+  ✅ Dark/Light theme toggle
+  ✅ Smooth animations
+  ✅ WhatsApp integration
+  ✅ Contact form
+  ✅ Image gallery
+  ✅ Modern UI components
+
+═══════════════════════════════════════════════════════════════
+Ready to code! Just run: npm install && npm run dev
+═══════════════════════════════════════════════════════════════
